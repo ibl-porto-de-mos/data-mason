@@ -14,8 +14,7 @@ def otaria (base, expoente):
     resultado = ("base * " * expoente)[:-3] 
     return eval(resultado) 
 
-  #return base ** expoente 
-
+ 
 def calculadora():
     operacao = input("operacao desejada: ").strip()
 
