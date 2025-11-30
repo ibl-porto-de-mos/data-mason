@@ -1,23 +1,22 @@
-# *LINGUAGENS DE PROGRAMAÇÃO: INTERPRETADAS E COMPILADAS*
+# *PROGRAMMING LANGUAGES: INTERPRETED AND COMPILED*
 
 
-## O QUE SÃO LINGUAGENS DE PROGRAMAÇÃO?
-- Uma linguagem de programação é um conjunto de regras e símbolos que permite aos programadores escrever instruções que um computador pode entender e executar.
+## WHAT ARE PROGRAMMING LANGUAGES?
+- A programming language is a set of rules and symbols that allows programmers to write instructions that a computer can understand and execute.
   
 
-## *LINGUAGEM INTERPRETADA*
-- _Uma linguagem de programação interpretada é aquela que o código principal é executado diretamente por um interpretador. O interpretador trabalha simultaneamente com a execução do programa executado. Esta linguagem permite uma maior flexibilidade na hora da execução e uma fácil modificação em "detalhes" que podem ser modificados no programa._
+## *INTERPRETED LANGUAGE*
+- _An Interpreted language is one where the code is run directly by an interpreter. The interpreter reads and executes the program at the same time, making it more flexible and easier to change while it’s running.”_
 
-- Tipos de Interpretadores
+- Types
   Python
   Javascrip
 
 
 
+## *COMPILED LANGUAGE*
+- _An compiled language they are programs whose main code is fully translated into machine code by a compiler before being executed. The result of this translation is an executable program that the computer can run directly._
 
-## *LINGUAGEM COMPILADA*
-- _Uma linguagem compilada é uma linguagem de programação cujo código principal é traduzido totalmente para código de máquina por um compilador antes de ser executado. O resultado dessa tradução é um programa executável, que o computador pode rodar diretamente._
-
-- Tipos de Compiladores
+- Types
  C
  C++
