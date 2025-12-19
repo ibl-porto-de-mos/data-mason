@@ -9,7 +9,7 @@ The immutable objects are: The tuples, strings, ints and floats
 The tuples are a type of list that fits strings, floats and ints but, after it's creation, the only way to "change" its compositions is by re-doing the code.
 
 ## About the strings
-The strings is any kind of numbers, letters or/and symbols between single/double quotation marks('' or "")
+Strings are any kind of numbers, letters or/and symbols between single/double quotation marks ('' or "")
 
 ## About Ints and floats
 Ints are numbers WITHOUT a floating point, but the floats are the opposites, since it needs a floating point(.)
