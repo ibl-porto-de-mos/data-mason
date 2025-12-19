@@ -2,7 +2,7 @@
 ### Main topic: Immutable objects in Python
 
 ## What's an immutable object?
-Immutable objects in Python are the objects that, after it's creation, is not able to change it's composition.    
+Immutable objects in Python are the objects that, after its creation, cannot change their composition.    
 The immutable objects are: The tuples, strings, ints and floats
 
 ## About the tuples
