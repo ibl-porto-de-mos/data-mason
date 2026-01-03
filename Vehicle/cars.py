@@ -1,4 +1,4 @@
-class car:
+class Car:
      
     def __init__(self, engine, whells, doors, fuel_tank, chassis): 
         self.engine = engine
@@ -8,10 +8,10 @@ class car:
         self.chassis = chassis
 
 
-    def acelerar(self, x):
+    def accelerate(self, x):
         self.velocidade = 1000
         print(f"O carro acelerou para {self.velocidade} km/h")
 
-    def parar(self):
+    def stop(self):
         self.velocidade = 0
-        print("O carro parou")
+        print("O carro parouu")
