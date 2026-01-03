@@ -18,12 +18,18 @@ def otaria (base, expoente):
 def calculadora():
     operacao = input("operacao desejada: ").strip()
 
-    operações_disponiveis = {"mais": soma, "menos": menos, "dividir": bananinha, "multi": cabecao, "potencia": otaria}
+    operações_disponiveis = {
+        "mais": soma,
+        "menos": menos,
+        "dividir": bananinha,
+        "multi": cabecao,
+        "potencia": otaria
+    }
 
     k = int(input("Insira um numero: "))
     w = int(input("Insira um segundo numero: "))
 
-    resultado = operações_disponiveis [operacao](k, w)
+    resultado = operações_disponiveis[operacao](k, w)
     
     mensagem = f"{k} {operacao} {w} é: {resultado}"
 
