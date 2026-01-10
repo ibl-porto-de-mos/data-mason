@@ -6,11 +6,11 @@ class Car:
         Self.chassis = chassis
         Self.tank = fuel_tank
 
-def acelerar (self):
-    return ("da uma aceleradinha")
+def accelerate (self):
+    return ("accelerate")
 
-def parar (self):
-    return ("diminui a velocidade")        
+def stop (self):
+    return ("stop")        
 
 
 print()
