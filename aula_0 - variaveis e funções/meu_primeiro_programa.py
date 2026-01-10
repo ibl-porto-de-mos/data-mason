@@ -7,29 +7,23 @@ def menos(x, y):
 def bananinha(x, y):
     return x / y
 
-def cabecao(x, y):
+def multiplicacao(x, y):
     return x * y
 
-def otaria (base, expoente):
-    resultado = ("base * " * expoente)[:-3] 
+def expoente(base, expoente):
+    resultado = (f"{base} * " * expoente)[:-3] 
     return eval(resultado) 
 
  
 def calculadora():
     operacao = input("operacao desejada: ").strip()
 
-    operações_disponiveis = {
-        "mais": soma,
-        "menos": menos,
-        "dividir": bananinha,
-        "multi": cabecao,
-        "potencia": otaria
-    }
+    operações_disponiveis = {"mais": soma, "menos": menos, "dividir": bananinha, "multi": multiplicacao, "potencia": expoente}
 
     k = int(input("Insira um numero: "))
     w = int(input("Insira um segundo numero: "))
 
-    resultado = operações_disponiveis[operacao](k, w)
+    resultado = operações_disponiveis [operacao](k, w)
     
     mensagem = f"{k} {operacao} {w} é: {resultado}"
 
