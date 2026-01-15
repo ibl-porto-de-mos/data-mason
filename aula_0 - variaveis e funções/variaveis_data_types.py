@@ -10,6 +10,7 @@ minha_tuple: tuple = (x,y,z)
 
 dicionario: dict = {
     "key1": 100000,
+    
     "key2": "100000",
     "key3": [],
     "banasdjn": (1,2,3),
