@@ -15,5 +15,5 @@ Volkswagen = Car("V8","rodas de liga leve", 4, "chassis", "80 litros")
 
 result = Volkswagen.accelerate()
 
-print(resultado)
+print(result)
 print(f"Tanque: {volkswagen.fuel_tank}")
