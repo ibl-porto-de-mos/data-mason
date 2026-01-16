@@ -9,7 +9,7 @@ Data structures help organize and store data efficiently. We'll cover lists, dic
 - **Set**: Unordered, unique elements.
 - **Tuple**: Ordered, immutable collection.
 
-## Christian Example: Gospel Stories
+##Gospel Stories
 Use a list for disciples, a dict for Bible books, a set for unique virtues, and a tuple for immutable commandments.
 
 ### Code Example

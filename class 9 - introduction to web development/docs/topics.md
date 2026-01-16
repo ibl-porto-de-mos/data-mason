@@ -8,7 +8,7 @@ Build simple web apps with Flask.
 - **Templates**: HTML rendering.
 - **Requests**: Handling user input.
 
-## Christian Example: Gospel Website
+##Gospel Website
 A simple site displaying Bible verses.
 
 ### Code Example
