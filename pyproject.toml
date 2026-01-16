@@ -1,0 +1,9 @@
+[project]
+name = "data-mason"
+version = "0.0.1"
+description = "Teaching software development"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ruff==0.14.13",
+]
