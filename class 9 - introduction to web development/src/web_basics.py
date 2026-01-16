@@ -1,0 +1,15 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Welcome to the Gospel!"
+
+@app.route('/verse/<book>')
+def verse(book):
+    verses = {"Genesis": "In the beginning..."}
+    return verses.get(book, "Verse not found")
+
+if __name__ == '__main__':
+    app.run()
