@@ -8,7 +8,7 @@ Handle errors gracefully using try/except blocks.
 - **Finally**: Always execute.
 - **Raise**: Throw custom errors.
 
-## Christian Example: Handling Temptation
+##Handling Temptation
 Simulate errors like "temptation" and handle them.
 
 ### Code Example

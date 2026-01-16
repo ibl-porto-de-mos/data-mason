@@ -8,7 +8,7 @@ Create REST APIs with FastAPI.
 - **Pydantic**: Data validation.
 - **Async**: Asynchronous operations.
 
-## Christian Example: Prayer API
+##Prayer API
 API for submitting and retrieving prayers.
 
 ### Code Example

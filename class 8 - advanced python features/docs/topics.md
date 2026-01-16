@@ -8,7 +8,7 @@ Decorators, generators, and comprehensions for efficient code.
 - **Generators**: Yield values lazily.
 - **Comprehensions**: Concise list/dict creation.
 
-## Christian Example: Blessings
+##Blessings
 Use decorators for prayers, generators for counting blessings.
 
 ### Code Example

@@ -8,7 +8,7 @@ Organize code into reusable modules and packages.
 - **Package**: A directory with __init__.py.
 - **Import**: Bring in modules.
 
-## Christian Example: Gospel Module
+##Gospel Module
 Create a module for Bible-related functions.
 
 ### Code Example

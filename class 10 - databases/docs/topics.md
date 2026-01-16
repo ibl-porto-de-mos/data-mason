@@ -8,7 +8,7 @@ Store data persistently with SQLite and SQLAlchemy.
 - **SQLite**: File-based DB.
 - **ORM**: Object-Relational Mapping.
 
-## Christian Example: Parables Database
+##Parables Database
 Store and query parables.
 
 ### Code Example

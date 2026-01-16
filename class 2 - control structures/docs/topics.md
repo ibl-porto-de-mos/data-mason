@@ -8,7 +8,7 @@ Control structures allow us to make decisions and repeat actions in our code. Th
 - **For Loop**: Iterate over sequences.
 - **While Loop**: Repeat while a condition is true.
 
-## Christian Example: Counting Disciples
+##Counting Disciples
 Imagine checking a list of disciples and greeting them based on their role, or looping through the Ten Commandments.
 
 ### Code Example

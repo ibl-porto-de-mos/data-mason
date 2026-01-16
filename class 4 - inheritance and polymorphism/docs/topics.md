@@ -7,7 +7,7 @@ Advanced OOP: Inherit from classes and override methods.
 - **Inheritance**: Child classes inherit from parents.
 - **Polymorphism**: Same method, different behavior.
 
-## Christian Example: Prophets
+##Prophets
 Base class "Prophet", subclasses like "Moses" and "Elijah".
 
 ### Code Example

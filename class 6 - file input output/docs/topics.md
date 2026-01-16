@@ -9,7 +9,7 @@ Learn to read from and write to files, essential for data persistence.
 - **Writing**: `write()`.
 - **Closing**: Always close files or use `with`.
 
-## Christian Example: Saving Scriptures
+##Saving Scriptures
 Read and write Bible verses to files.
 
 ### Code Example

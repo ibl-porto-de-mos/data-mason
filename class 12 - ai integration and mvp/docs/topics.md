@@ -7,7 +7,7 @@ Build an MVP FastAPI app with AI for generating biblical stories.
 - **AI Integration**: Use OpenAI API for text generation.
 - **MVP**: Minimum Viable Product with core features.
 
-## Christian Example: Biblical Story Generator
+##Biblical Story Generator
 API that generates stories based on themes.
 
 ### Code Example
