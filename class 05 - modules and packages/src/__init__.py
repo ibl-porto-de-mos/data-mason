@@ -1,0 +1,1 @@
+# Package for Class 6 examples
