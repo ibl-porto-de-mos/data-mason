@@ -1,7 +1,7 @@
 # Class 9: Introduction to Web Development
 
 ## Overview
-Build simple web apps with Flask.
+Build simple web apps with FastAPI.
 
 ## Key Concepts
 - **Routes**: URL endpoints.
@@ -13,21 +13,18 @@ A simple site displaying Bible verses.
 
 ### Code Example
 ```python
-from flask import Flask
+from fastapi import FastAPI, status
 
-app = Flask(__name__)
+app = FastAPI(__name__)
 
-@app.route('/')
+@app.get("/")
 def home():
     return "Welcome to the Gospel!"
 
-@app.route('/verse/<book>')
+@app.get("/verse/{book}", status_code=status.HTTP_200_OK)
 def verse(book):
-    verses = {"Genesis": "In the beginning..."}
+    verses = {"Genesis": "In the beginning..."}`
     return verses.get(book, "Verse not found")
-
-if __name__ == '__main__':
-    app.run()
 ```
 
 ## Exercises

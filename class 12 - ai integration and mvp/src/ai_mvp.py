@@ -1,14 +1,25 @@
+import os
+
 from fastapi import FastAPI
-import openai
+from openrouter import OpenRouter
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 
 app = FastAPI()
-openai.api_key = "your-key"  # Replace with actual key
 
 @app.get("/story/{theme}")
 def generate_story(theme: str):
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=f"Write a short biblical story about {theme}",
-        max_tokens=100
-    )
-    return {"story": response.choices[0].text.strip()}
+
+    with OpenRouter(api_key=OPENROUTER_API_KEY) as client:
+        response = client.chat.send(
+            model= "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+            messages=[
+                {"role": "user", "content":  f"Escreva uma curta história bíblica sobre o tema: {theme}"}
+            ],
+        )
+
+    return {"story": response.choices[0].message.content}
